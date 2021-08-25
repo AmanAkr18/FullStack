@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 6</title>
+    <style>
+        body {
+            background-color: silver;
+        }
+
+        #main {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .card {
+            /* border: 2px solid black; */
+            width: 23%;
+            padding: 15px;
+            text-align: center;
+            margin: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: 40%;
+            border-radius: 10px;
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+
+        a {
+            
+            background-color: red;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+            padding: 7px;
+            border-radius: 10px;
+            /* text-align: left; */
+
+            margin-top: 20px;
+
+        }
+
+        a:hover {
+            background-color: blue;
+        }
+
+        h1 {
+            color: white
+        }
+
+        /* #js{
+            width: 100%;
+            height: 55%;
+        } */
+    </style>
+</head>
+
+<body>
+    <h1>PRACTICAL 6 :- CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES</h1>
+    <div id="main">
+        <div class="card">
+            <img src="../Assests/html.png" alt="">
+            <h4>Introduction to HTML</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis quae nulla delectus dolorum itaque
+                iste earum, enim eius sed facere nobis perferendis hic natus, voluptatum perspiciatis dolorem. Nobis,
+                fugiat veritatis Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo animi quos</p>
+
+            <a href="../Pages/html.html">Read More</a>
+
+        </div>
+        <div class="card">
+            <img src="../Assests/css.png" alt="">
+            <h4>Introduction to CSS</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis quae nulla delectus dolorum itaque
+                iste earum, enim eius sed facere nobis perferendis hic natus, voluptatum perspiciatis dolorem. Nobis,
+                fugiat veritatis Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo animi quos</p>
+            <a href="../Pages/css.html">Read More</a>
+        </div>
+        <div class="card">
+            <img id="js" src="../Assests/javascript.png" alt="">
+            <h4>Introduction to JavaScript</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis quae nulla delectus dolorum itaque
+                iste earum, enim eius sed facere nobis perferendis hic natus, voluptatum perspiciatis dolorem. Nobis,
+                fugiat veritatis Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo animi quos</p>
+            <a href="../Pages/javascript.html">Read More</a>
+        </div>
+        <div class="card">
+            <img src="../Assests/bootstrap.png" alt="">
+            <h4>Introduction to Bootstrap</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis quae nulla delectus dolorum itaque
+                iste earum, enim eius sed facere nobis perferendis hic natus, voluptatum perspiciatis dolorem. Nobis,
+                fugiat veritatis Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo animi quos</p>
+            <a href="../Pages/bootstrap.html">Read More</a>
+        </div>
+    </div>
+</body>
+
+</html>
