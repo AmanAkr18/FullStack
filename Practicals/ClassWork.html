@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Plan Table </title>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.13.0/css/all.css'
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+    crossorigin="anonymous"/>
+    <style>
+        body{
+            margin : 0;
+            padding : 0 ;
+            box-sizing: border-box;
+        }
+
+        .top{
+            width :100%;
+            justify-content: center;
+            align-items : center;
+            height : 10vh;
+            display: flex;
+        }
+
+        .Table{
+            justify-content: center;
+            align-items : center;
+            display : flex;
+        }
+
+        .Table table{
+            width : 70%;
+            height : 80vh;
+        } 
+        
+        .Table table thead tr.top-head{
+            font-size: 38px;
+            color:blueviolet;
+            background-color: rgb(183, 229, 247) ;
+        }
+        .Table table tbody tr.amount{
+            font-size: 28px;
+            background-color: rgb(171, 241, 171);
+        }
+        .Table table tbody tr td i.fa-times{
+            color: tomato;
+            font-size: 18px
+        }
+
+        .Table table tbody tr td i.fa-check{
+            color: lime;
+            font-size: 18px
+        }
+
+        .Table table tbody tr td {
+            text-align : center;
+        }
+
+        .pages{
+            background-color: rgb(151, 204, 206);
+        }
+
+        .Table table tbody tr td a{
+            text-decoration: none;
+            color: white;
+            background-color: purple;
+            padding: 10px 25px;
+            border-radius: 10px;
+        }
+        .Table table tbody tr td a:hover{
+            color: yellow;
+        }
+
+        tbody>tr.pages>:nth-child(1){ 
+            background-color: rgba(131, 48, 102, 0.527)
+        }
+        tbody>tr.pages>:nth-child(2){
+            background-color: rgba(223, 119, 186, 0.527);
+}
+        tbody>tr.pages>:nth-child(2){ 
+            background-color: rgba(171, 96, 214, 0.541);
+}
+        tbody>tr.page>:nth-child(3){ 
+            background-color: rgba(81, 240, 121, 0.562);
+}
+        tbody>tr.pages>:nth-child(4){ 
+            background-color: rgba(218, 236, 48, 0.719);
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class = "top">
+        <h2> SELECT YOUR PLAN</h2>
+    </div>
+
+    <div class = "Table">
+        <table>
+            <thead>
+                <tr class = "top-head">
+                    <th><i class="fas fa-building"></i> Basic</th>
+                    <th><i class="fas fa-ring"></i> Plus</th>
+                    <th><i class="fas fa-envelope-square"></i> Deluxe</th>
+                    <th><i class="fas fa-palette"></i> Pro</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="amount">
+                  <td>Rs 500/-</td>
+                  <td>Rs 1500/-</td>
+                  <td>Rs 2500/-</td>
+                  <td>Rs 3500/-</td>
+                </tr>
+
+                <tr class="pages">
+                    <td>50 Pages</td>
+                    <td>75 Pages</td>
+                    <td>Unlimited</td>
+                    <td>Unlimited</td>
+                </tr>
+
+                <tr>
+                    <td>3 users</td>
+                    <td>5 users</td>
+                    <td>10 users</td>
+                    <td>Unlimited</td>
+                </tr>
+
+                <tr class="pages">
+                    <td>10 Sites</td>
+                    <td>25 Sites</td>
+                    <td>100 Sites</td>
+                    <td>Unlimited</td>
+                  </tr>
+        
+                  <tr></tr>
+                    <td>50 MB</td>
+                    <td>250 MB</td>
+                    <td>1 GB</td>
+                    <td>5 GB</td>
+                  </tr>
+        
+                  <tr class="pages">
+                    <td>included</td>
+                    <td>included</td>
+                    <td>included</td>
+                    <td>included</td>
+                  </tr>
+
+                  <tr>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                  </tr>
+        
+                  <tr class="pages">
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                  </tr>
+        
+                  <tr>
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                  </tr>
+
+                  <tr class="pages">
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                  </tr>
+
+                  <tr>
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                  </tr>
+
+                  <tr class = "pages">
+                      <td><a href="#">SIGN UP</a></td>
+                      <td><a href="#">SIGN UP</a></td>
+                      <td><a href="#">SIGN UP</a></td>
+                      <td><a href="#">SIGN UP</a></td>
+                  </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
